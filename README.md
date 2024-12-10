@@ -22,3 +22,12 @@ root@armbian:~# ./getyunhu-linux-arm64
 >
 退出程序
 ```
+## 交互（json输出）
+```
+root@armbian:~# ./getyunhu-linux-arm64 -j
+请输入用户ID或群ID(输入exit或ctrl+d退出)
+>7058262
+{"userId":"7058262","userName":"Feng(工作中)","registerTime":"2021-12-16 12:00:26"}
+>
+退出程序
+```
